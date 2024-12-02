@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-            Home
-        </title>
-        <link rel="icon" type="image/x-icon" href="favicon3.ico">
+       
+        <link rel="icon" type="image/x-icon" href="butterfly1.png">
         <link rel="stylesheet" href="home.css">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <style>
-           footer {
-            text-align: center;
-            position: relative;
-            bottom: 0;
-            width:100%;
-            left:0;
-            right:0;
-        }
-        </style>
+        <title>
+            Home
+        </title>
     </head>
+
     <body>
         <h1>Home</h1>
-        <nav>
-        <ul>
-            <li id="right"><a href="AboutMe.html">AboutMe</a></li>
-            <li><a href="cv.html">MyCV</a></li>
-            <li><a href="contact.html">ContactMe!</a></li>
-        </ul>
+    <nav>
+    <!-- Butonul hamburger -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Meniul -->
+    <ul id="nav-menu">
+        <li id="right"><a href="AboutMe.html">About Me</a></li>
+        <li><a href="cv.html">MyCV</a></li>
+        <li><a href="contact.html">ContactMe!</a></li>
+        <li><a href="portofolio.html">Portofolio</a></li>
+    </ul>
         </nav>
-        <p>Hi! My name is Toea Mariana but my friends and family call me Maia, I am 20 years old and I am a second-year student at the Faculty of Automation and Computer Science, UNSTPB.</p>
+        <p>Hi! My name is Toea Mariana, I am 20 years old and I am a second-year student at the Faculty of Automation and Computer Science, UNSTPB.</p>
         <div class="container">
-            <img src="eu.jpg" alt="Imagine descriptivă" title="Paris, France" id="first-image">
+            <img src="Poze/eu.jpg" alt="Imagine descriptivă" title="Paris, France" id="first-image">
         </div>
 
         <h2>My autobiography</h2>
         <table>
             <tr>
-                <th>Date of birth</th>
+                <td>Date of birth</td>
                 <td>21 March 2004</td>
             </tr>
             <tr>
-                <th>Place of birth</th>
+                <td>Place of birth</td>
                 <td>Rm. Sarat, Buzau, Romania</td>
             </tr>
             <tr>
-                <th rowspan="2">Education</th>
+                <td rowspan="2">Education</td>
                 <td>"B.P. Hasdeu" National College, 2019-2023</td>
             </tr>
             <tr>
                 <td>ACS - UNSTPB, 2023-present</td>
             </tr>
             <tr>
-                <th>Occupation</th>
+                <td>Occupation</td>
                 <td>Student</td>
             </tr>
             <tr>
-                <th>Hobbies</th>
+                <td>Hobbies</td>
                 <td>Travelling, spend time with my cat</td>
             </tr>
         </table>
@@ -64,13 +64,14 @@
         </h3>
 
         <div class="image-container">
-            <img src="image1.jpg" alt="Travel Photo 1" title="Balchik, Bulgaria">
-            <img src="image2.jpg" alt="Travel Photo 2" title="Paris, France">
-            <img src="image3.jpg" alt="Travel Photo 3" title="Paris, France">
-            <img src="image4.jpg" alt="Travel Photo 4" title="Busteni, Romania">
+            <img src="Poze/image1.jpg" alt="Travel Photo 1" title="Balchik, Bulgaria">
+            <img src="Poze/image2.jpg" alt="Travel Photo 2" title="Paris, France">
+            <img src="Poze/image3.jpg" alt="Travel Photo 3" title="Paris, France">
+            <img src="Poze/image4.jpg" alt="Travel Photo 4" title="Busteni, Romania">
         </div>
         <footer>
             <p style="font-size: small;">&copy; 2024 Toea Mariana. All rights reserved.</p>
         </footer>
+    <script src="aboutme.js"></script>
     </body>
 </html>

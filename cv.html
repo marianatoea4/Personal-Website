@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My CV</title>
-    <link rel="icon" type="image/x-icon" href="favicon3.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="butterfly1.png"> 
     <link rel="stylesheet" href="cv.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>My CV</title>
 </head>
 <body>
     <h1>My CV</h1>
     <nav>
-    <ul>
-        <li><a href="home.html">Home</a></li>
+    <!-- Butonul hamburger -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Meniul -->
+    <ul id="nav-menu">
         <li id="right"><a href="AboutMe.html">About Me</a></li>
-        <li><a href="contact.html">Contact Me!</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="contact.html">ContactMe!</a></li>
+        <li><a href="portofolio.html">Portofolio</a></li>
     </ul>
     </nav>
 
@@ -30,18 +40,17 @@
         <p>Faculty of Automation and Computer Science
             2023-present
             </p>
-        <p><b>“B. P. HASDEU” NATIONAL COLLEGE</b></p>
+        <p><b>“B. P. HASDEU” NATIONAL COLLEGE BUZAU</b></p>
         <p>Mathematics-Computer Science
             2019-2023
         </p>
 
         <h2>Languages</h2>
-        <ol>
-            <li>English(B2);</li>
-            <li>French(B1);</li>
-            <li>German(A2);</li>
-        </ol>
-        
+        <ul class="no-bullets">
+            <li>English (Excellent)</li>
+            <li>French (Fluent)</li>
+            <li>German (Conversational)</li>
+        </ul>
         <h2>Computer skills</h2>
         <p>Computer programming, Microsoft
             Office, Communication tools, Operating
@@ -50,8 +59,12 @@
         <p>C, C++, C#, HTML, CSS, JavaScript</p>
         
         <div class="download-section">
-            <a href="CV.pdf" download class="download-button">Download PDF</a>
+            <a href="CV_Toea_Mariana.pdf" download class="download-button">Download PDF</a>
         </div>
     </div>
+    <footer>
+        <p style="font-size: small;">&copy; 2024 Toea Mariana. All rights reserved.</p>
+    </footer>
+    <script src="aboutme.js"></script>
 </body>
 </html>

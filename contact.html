@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+  
     <head>
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="contact.css">
-        <link rel="icon" type="image/x-icon" href="favicon3.ico">
+        <link rel="icon" type="image/x-icon" href="butterfly1.png">
 
         <title>
             ContactMe
@@ -15,13 +16,24 @@
     </head>
 
     <body>
-        <h1>ContactMe</h1>
+        <h1>Contact Me</h1>
 
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="cv.html">MyCV</a></li>
-            <li id="right"><a href="AboutMe.html">AboutMe</a></li>
-        </ul>
+        <nav>
+          <nav>
+            <!-- Butonul hamburger -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Meniul -->
+            <ul id="nav-menu">
+                <li id="right"><a href="AboutMe.html">About Me</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cv.html">MyCv</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+            </ul>
+        </nav>
 
         <div class="container">
             <form action="mailto:mariana.toea4@gmail.com" method="post">
@@ -53,17 +65,21 @@
             <div class="footer">
                 <div class="icons">
                   <a href="https://www.instagram.com/mayaaahiii/" target="_blank">
-                    <img class="one-icon" src="instagram.svg" />
+                    <img class="one-icon" src="instagram.svg" alt="instagram icon">
                   </a>
                   <a href="https://www.facebook.com/Mayaaa21" target="_blank">
-                    <img class="one-icon" src="facebook.svg"/>
+                    <img class="one-icon" src="facebook.svg" alt="facebook icon">
                   </a>
                   <a href="https://www.linkedin.com/in/mariana-toea-0051132bb/" target="_blank">
-                    <img class="one-icon" src="linkedin.svg"/>
+                    <img class="one-icon" src="linkedin.svg" alt="linkedin icon">
                   </a>
                 </div>
               </div>
         </footer>
 
+      <footer id="footer2">
+          <p style="font-size: small;">&copy; 2024 Toea Mariana. All rights reserved.</p>
+      </footer>
+    <script src="aboutme.js"></script>
     </body>
 </html>
